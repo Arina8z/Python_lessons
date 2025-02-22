@@ -16,8 +16,8 @@
 # print(bmw.color, bmw.speed)
 # bmw.beep()
 
-# print(bmw.color, bmw.speed)
-# bmw.beep()
+# print(audi.color, audi.speed)
+# audi.beep()
 
 class Car():
     # конструктор класса
@@ -25,7 +25,7 @@ class Car():
         self.color = color
         self.speed = speed
         self.gudok = gudok
-        print("Сработал конструктор")
+        # print("Сработал конструктор")
     def beep(self):
         print(f'{self.gudok}')
       
